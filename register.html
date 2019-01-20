@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Test pour site avec du HTML</title>
+    </head>
+    
+    <body>
+       <header>
+           <h1>Vos animaux préférés</h1> 
+        </header>
+        
+        <nav>
+            <a href="site.html">Retouner à l'accueil</a>
+        </nav>
+        
+        <section>
+            <h2>Formulaire d'enregistrement</h2>
+            
+            <form>
+                <label for="nom">Nom:</label>
+                <input type="text" id="nom" required>
+                <label for="prénom">Prénom:</label>
+                <input type="text" id="prénom" required><br>
+
+                <label for="naissance">Date de naissance:</label>
+                <input type="date" id="naissance"><br>
+                
+                <label for="sexeHomme">Etes-vous un homme ?</label>
+                <input type="radio" id="sexeHomme" name="sexe">
+                <label for="sexeFemme">| Ou une femme ?</label>
+                <input type="radio" id="sexeFemme" name="sexe"><br>
+                
+                <label for="password">Votre mot de passe:</label>
+                <input type="password" id="password" required><br>
+                <input type="submit" value="S'enregistrer">
+            </form>
+            
+            <p>Vous avez déjà un compte ? <a href="connexion.html">Se connecter !</a></p>
+        </section>
+        
+        <footer>
+            <p>&copy; NosAnimaux - 2019. Tous droits réservés.</p>
+        </footer>
+    </body>
+</html>
